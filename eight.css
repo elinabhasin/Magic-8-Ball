@@ -1,0 +1,33 @@
+.margin-ball{
+    width:310px;
+    height:310px;
+    background-color: gray;
+    position:relative;
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-left:41%;
+    margin-top:15%;
+}
+
+.outer-ball{
+    width:300px;
+    height:300px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top:1.5%;
+    left:1.5%;
+}
+.inner-ball{
+    width:220px;
+    height:220px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    position:absolute;
+    top:13.5%;
+    left:14%;
+}
+
+body{
+    background-color: black;
+}
