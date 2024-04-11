@@ -1,13 +1,3 @@
-.margin-ball{
-    width:310px;
-    height:310px;
-    background-color: gray;
-    position:relative;
-    border-radius: 50%;
-    margin-top: 10%;
-    margin-left:40%;
-    margin-top:15%;
-}
 
 .outer-ball{
     width:300px;
@@ -43,3 +33,58 @@ body{
 #submit{
     font-size: 24px;
 }
+
+#response{
+    position:absolute;
+    padding:10px;
+    text-align: center;
+    justify-content:center ;
+    color:black;
+    font-size: 17px;
+
+    width:70%;
+    height:40%;
+    top:18%;
+  left:10%;
+    
+}
+.text-box{
+    position:absolute;
+   
+    width:210px;
+    height:150px;
+    top:16%;
+    left:2%;
+    border-radius:50%;
+}
+
+
+    @keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    75% {
+        transform: translateX(-5px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+.margin-ball{
+    width:310px;
+    height:310px;
+    background-color: gray;
+    position:relative;
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-left:40%;
+    margin-top:15%;
+    animation:shake 0.3s ease-in-out;
+}
+
