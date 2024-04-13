@@ -6,5 +6,16 @@ function getRes(){
     let choice=responses[index];
     document.getElementById('response').innerText=choice;
 }
+const submitButton=document.getElementById('submit');
+const ballObj=document.getElementById('margin-ball');
+
+
+submitButton.addEventListener("click",()=>{
+    if (document.getElementById('question').value.trim() !== "") { 
+        
+            getRes();
+       
+    }
+    });
 
 
